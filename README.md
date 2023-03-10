@@ -29,3 +29,4 @@ This is most likely attributed to the larger noise floor of a 32-bit wav PCM fil
 The 32-bit float wav file has a smaller noise floor and you can see that when the file is brought in, the level ususally stays between -12db to -2db. 
 
 Faders are workable with a 32-bit float wav file and the signal can be boosted or attenuated to the users desired level. 
+#

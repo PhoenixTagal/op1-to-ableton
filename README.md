@@ -20,7 +20,7 @@ op1-to-ableton makes this conversion in a lightweight software rather than openi
   <img src="https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/unsupported_file_master.png"/>
 </p>
 
-You'll notice intense clipping that essentially breaks ableton. Faders will not work when trying to manipulate 32-bit wav PCM file in Ableton. 
+You'll notice intense clipping that essentially breaks ableton. Faders will not work when trying to manipulate 32-bit wav PCM files in Ableton. 
 This is most likely attributed to the larger noise floor of a 32-bit wav PCM file. 
 
 **32-bit float wav file in Ableton:**

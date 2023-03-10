@@ -16,15 +16,19 @@ op1-to-ableton makes this conversion in a lightweight software rather than openi
 
 **32-bit wav PCM file in Ableton:**
 
-![Unsupported File](https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/unsupported_file_master.png)
+<p align="center">
+  <img src="https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/unsupported_file_master.png"/>
+</p>
 
 You'll notice intense clipping that essentially breaks ableton. Faders will not work when trying to manipulate 32-bit wav PCM file in Ableton. 
 This is most likely attributed to the larger noise floor of a 32-bit wav PCM file. 
 
 
 **32-bit float wav file in Ableton**
+<p align="center">
+  <img src="https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/supported_file_master.png"/>
+</p>
 
-![Supported File](https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/supported_file_master.png)
 
 The 32-bit float wav file has a smaller noise floor and you can see that when the file is brought in, the level ususally stays between -12db to -2db. 
 

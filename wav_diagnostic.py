@@ -8,7 +8,7 @@ supported_file = 'supported_track_2.wav'
 data, samplerate = sf.read(unsupported_file, dtype='float32')
 
 print('data is list of numpy.ndarrays \n')
-print('each element of list holds 2 numpy.float64 objects')
+print('each element of list holds 2 numpy.float-x objects, x is determined by dtype parameter')
 print('data:', data, '\n')
 print('length of data:', len(data))
 print('object type of data variable:', type(data))

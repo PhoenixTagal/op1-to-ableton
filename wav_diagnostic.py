@@ -7,13 +7,13 @@ supported_file = 'supported_track_2.wav'
 # passing 'float32' as argument for dtype parameter converts from original file datatype
 data, samplerate = sf.read(unsupported_file, dtype='float32')
 
+# imported wav file properties
 print('data is list of numpy.ndarrays \n')
 print('each element of list holds 2 numpy.float-x objects, x is determined by dtype parameter')
 print('data:', data, '\n')
 print('length of data:', len(data))
 print('object type of data variable:', type(data))
 print('sample rate:', samplerate)
-
 
 # looking at array dimensions of data
 data_array_info = np.asarray(data)

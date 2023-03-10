@@ -12,3 +12,20 @@ A common workardound ableton reccomends is to bring the 32-bit wav PCM file into
 
 op1-to-ableton makes this conversion in a lightweight software rather than opening up a seperate DAW.
 #
+
+
+**32-bit wav PCM file in Ableton:**
+
+![Unsupported File](https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/unsupported_file_master.png)
+
+You'll notice intense clipping that essentially breaks ableton. Faders will not work when trying to manipulate 32-bit wav PCM file in Ableton. 
+This is most likely attributed to the larger noise floor of a 32-bit wav PCM file. 
+
+
+**32-bit float wav file in Ableton**
+
+![Supported File](https://github.com/PhoenixTagal/op1-to-ableton/blob/main/test/supported_file_master.png)
+
+The 32-bit float wav file has a smaller noise floor and you can see that when the file is brought in, the level ususally stays between -12db to -2db. 
+
+Faders are workable with a 32-bit float wav file and the signal can be boosted or attenuated to the users desired level. 

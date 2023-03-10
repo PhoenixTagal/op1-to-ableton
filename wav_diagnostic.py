@@ -26,6 +26,7 @@ for i in data[1]:
     print(type(float(i)))
 
 # writing new file with new data type established in sf.read() args
+# saves file to active directory
 sf.write(data=data,
          samplerate=samplerate,
          endian='LITTLE',

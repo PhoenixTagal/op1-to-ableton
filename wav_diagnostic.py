@@ -19,8 +19,8 @@ print('sample rate:', samplerate)
 data_array_info = np.asarray(data)
 print('tuple specifiying size of each dimension of the var data array:', data_array_info.shape)
 
+# looking at class type of elements within ndarray of imported wav file
 print(data[1])
-
 for i in data[1]:
     print(type(i))
     print(type(float(i)))
